@@ -1,0 +1,360 @@
+
+body{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal; 
+    font-size: 16px;
+    padding: 0px 120px;
+    justify-content: center;
+    
+}
+/*_____________________________________________________*/
+
+.logo{
+    width: 8rem;
+    height: 2rem;
+}
+
+.navList{ 
+    
+    width: 35em;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+    top: 0px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+/*_____________________________________________________*/
+
+.section{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin:6rem 0rem;
+     
+}
+.img1{
+    margin-top: 5rem;
+    width: 555px;
+    height: 478px;
+    object-fit: cover;  
+}
+
+/*_____________________________________________________*/
+.backimg{
+    background-image: url(./imgs/Vector\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: 750px 537px;
+    background-position: -23px 158px;
+    overflow: visible;
+    margin: 0px -130px; 
+}
+.subSection1{
+    margin: 2rem 0rem;
+    padding: 0rem 21rem; 
+}
+
+.subSection2{ 
+    padding: 0px 8rem;    
+}
+
+.card1{
+    width: 280px;
+    height: 284px;
+    padding: 2.5rem;
+    text-align: left;
+    background-color: white;
+    
+}
+
+/*_____________________________________________________*/
+
+.rightpad{
+    padding-right:150px;   
+}
+.pad{
+    padding:0px 150px;  
+}
+.img2{
+    margin-top: 5rem;
+    width: fit-content;
+    height: 382px;  
+}
+/*_____________________________________________________*/
+.card2{
+    
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    background-blend-mode: color-dodge;
+    padding: 3rem 8rem;
+    margin: 0rem 5rem;
+    background-image: linear-gradient(to right, #458cf6,#52bafb );
+}
+.card2T1{
+    width: 200px;
+    margin-right: 50px;
+    margin-left: 0px;
+
+}
+.card2T2{
+    width: 350px;
+    margin-left: 50px;
+
+}
+.Cimg{
+    border-radius: 5rem;
+    border:0.2rem solid white;
+
+}
+.arrowbtn{
+    margin: 0rem 3rem;
+    transition: all 0.7s;
+}
+.arrowbtn:hover{
+    transform: scale(1.2);
+}
+
+.arrow{
+    transition: all 0.7s;
+}
+.arrow:hover{
+    transform: scale(1.2);
+}
+
+
+
+/*_____________________________________________________*/
+.card3{
+    width: 280px;
+    height: 438px;
+    text-align: left;
+    background-color: white;
+}
+.carditems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card3Text{
+    padding: 0rem 2rem 1rem 1rem;
+}
+.arrowimg{
+    width:18px;
+    height: 12px;
+    margin: 0rem 1.2rem;
+}
+
+.backimg2{
+    background-image: url(./imgs/Vector.png);
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+    background-position: 950px 75px;
+    margin: 0px -130px;
+}
+
+
+/*_____________________________________________________*/
+.footer{
+   height: 346px;
+   background-image: url(./imgs/bg.png);
+   margin: 150px  -130px 0px -130px;
+   display: flex;
+   justify-content:space-around; 
+   align-items: center;
+   padding:0px 100px ;
+   
+
+}
+
+.list{
+    text-align: left;
+    margin: 0px 20px;
+}
+.logoW{
+    width: 8rem;
+    height: 2.2rem;
+}
+.copyW{
+    width: 13rem;
+    height: 0.7rem;
+}
+
+/*_____________________________________________________*/
+
+/*_________________________ Common ___________________________*/
+
+
+.underline{
+    position: relative;
+}
+.underline::after{
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 2px;
+    background-color: black;
+    top: 120%;
+    left: 45%;
+}
+.card{
+    margin: 1rem;
+    border-radius: 1.5rem;
+    box-shadow: 1px 1px 10px 1px #f0f0f0; 
+    overflow: hidden; 
+}
+.img-fluid {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.flex{
+
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+    text-align: center;
+
+}
+.btn{
+    width: 10.3rem;
+    height: 2.8rem;
+    border-radius: 1.5rem;
+    margin: 1rem;
+}
+.btnB{
+    border: 1px solid;
+    border-color:#458FF6;
+    background-color: #458FF6;
+    color: white;
+    transition: all 1s;
+}
+.btnB:hover{
+    border-color:#458FF6;
+    background-color: white;
+    color: #458FF6;
+}
+.btnW{  
+    border: 1px solid;
+    border-color:#458FF6;
+    background-color: white;
+    color: #458FF6;
+    transition: all 1s;
+}
+.btnW:hover{
+    border-color:#458FF6;
+    background-color: #458FF6;
+    color: white;
+}
+.blue{
+    color:#458FF6;  
+}
+.grey{
+    color:#7D7987;  
+}
+.white{
+    color: white;
+}
+.p16{
+    font-size: 0.8rem;  
+    line-height: 1.6;    
+}
+.p18{
+    font-size: 1rem;
+    line-height: 1.6; 
+}
+.p24{
+    font-size: 1.2rem;
+    line-height: 1.6;   
+}
+.p36{
+    font-size: 2rem;       
+}
+.p48{
+    font-size: 2.8rem;   
+}
+.fW300{
+    font-weight: 300;   
+}
+.fW400{
+    font-weight: 400;
+}
+.fW700{
+    font-weight: 700;
+}
+
+/*_________________________ Media query ___________________________*/
+
+@media(max-width:992px){
+    body{
+        font-size: 12px;
+        padding:0px 20px;         
+    }
+    .section{
+        display: block;
+        justify-content:center;
+        align-items: center;
+    }
+    .img1 , .img2{
+        max-width: 100%;
+        height: auto
+    }
+    .card2{
+        padding: 1rem 1rem; 
+    }
+    .carditems{
+        display: block;
+    }
+ 
+}
+
+@media(max-width:576px){
+    body{
+        font-size: 8px; 
+        padding:0% 20px;  
+    }
+    .section{
+        display: block;
+        justify-content:center;
+        align-items: center;
+    }
+    .img1 , .img2{
+        max-width: 100%;
+        height: auto
+    }
+    .subSection1{
+        margin: 2rem 0rem;
+        padding: 0rem 10rem; 
+    }
+   .subSection2{
+        flex-wrap: wrap;  
+    }
+    .left{
+        padding-right: 2rem;   
+    }
+    .right{
+        padding-left: 2rem;   
+    }
+    .card2{
+        padding: 0.2rem 0.2rem;   
+    }
+    .rightpad{
+        padding-right:0px;   
+    }
+    .pad{
+        padding:0px;  
+    }
+    .carditems{
+        display: block;
+    }
+}
+
+
